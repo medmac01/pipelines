@@ -24,7 +24,7 @@ class Pipeline:
         pass
 
     def invoke_agents(self, input:str):
-        base_url = "http://threat_hunt_agents_api-sonic_ai-1:3333/api/answer_v2/"
+        base_url = "threat_hunt_agents_api-sonic_ai-1:3333/api/answer_v2/"
         headers = {
           'Content-Type': 'application/json',
           'Authorization': 'Token 42af1c549bd22daaa542ef9436903260b472c370'
